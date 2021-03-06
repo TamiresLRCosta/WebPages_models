@@ -1,0 +1,157 @@
+/*Global=====================*/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {height: 100%;}
+
+body {
+    background: rgb(231, 230, 230);
+    font-family:'Poppins', sans-serif;
+    display: inline-flexbox;
+}
+
+/*Header=====================*/
+Header {
+    background-color: rgb(204, 204, 204);
+    padding: 2rem;
+    width: 100%;
+}
+
+#logo {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-left: 10rem;
+    display: inline-block;
+}
+#cadastrar {
+    opacity: 0.7;
+    text-transform: uppercase;
+    margin-left: 50rem;
+    border: none;
+    font-size: 1.75rem;
+    background-color: rgb(204, 204, 204);
+}
+
+#cadastrar:hover {
+    opacity: 1;
+}
+
+#exibir {
+    opacity: 0.7;
+    text-transform: uppercase;
+    margin-left: 3rem;
+    border: none;
+    font-size: 1.75rem;
+    background-color: rgb(204, 204, 204);
+}
+
+#exibir:hover {
+    opacity: 1;
+}
+
+header form {
+    display: inline-block;
+    margin-left: 5rem;
+}
+
+#buscar {
+    border: none;
+    display: inline-block;
+    width: 300px;
+    height: 35px;
+    border-radius: 1rem 0 0 1rem;    
+}
+
+#btnBusca {
+    float:right;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 0 1rem 1rem 0;
+}
+
+
+/*Container=====================*/
+.container {
+    width: 100%;
+    margin-bottom: 5rem;
+    padding: 0;
+}
+
+#first-section {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#second-section {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.new-box {
+    background: white;
+    min-width: 33rem;
+    max-width: 33rem;
+    height: 40rem;
+    padding: 0;
+    margin: 2rem 0 2rem 2rem;
+    display: inline-block;
+    
+}
+
+.new-box h2 {
+    font-weight: bold;
+    margin: 1rem 0 0 3rem;
+}
+
+.new-box p {
+    max-height: 70%;
+    min-height: 30%;
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+
+.acess {
+    padding: 2rem;
+    margin: 0 13%;
+
+}
+
+.acess button {
+    opacity: 0.7;
+    font-size: 1.7rem;
+    width: 300px;
+    height: 70px;
+    border-radius: 1rem;
+    background: rgb(204, 204, 204);
+
+    border: none;
+}
+
+.acess button:hover {
+    opacity: 1;
+}
+
+/*Footer=====================*/
+footer {
+    background: rgb(204, 204, 204);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+}
